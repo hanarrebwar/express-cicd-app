@@ -1,0 +1,19 @@
+{
+  "name": "express-cicd-app",
+  "version": "1.0.0",
+  "description": "Express REST API with a Jenkins + Docker CI/CD pipeline (Assignment-1)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --ci"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "p-limit": "^7.3.0",
+    "source-map-support": "^0.5.21"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
